@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1004</width>
+    <height>709</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>961</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tabAterriza">
+     <attribute name="title">
+      <string>Aterrizaje</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabRegistro">
+     <attribute name="title">
+      <string>Registro</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabEquipaje">
+     <attribute name="title">
+      <string>Equipaje</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabMant">
+     <attribute name="title">
+      <string>Mantenimiento</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btnIniciar">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>600</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Inciar Simulacion</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnTurno">
+    <property name="geometry">
+     <rect>
+      <x>808</x>
+      <y>600</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Siguiente
+Turno</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
